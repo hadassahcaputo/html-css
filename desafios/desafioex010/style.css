@@ -8,6 +8,11 @@
 
 body {
     font-family: 'Roboto Serif', sans-serif;
+    margin: auto;
+}
+
+div {
+    display: inline-block;
 }
 
 h1 {
