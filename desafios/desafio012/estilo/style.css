@@ -11,6 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
@@ -29,7 +30,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 10vw;
 }
 
 header > p {
@@ -52,6 +53,7 @@ section {
     line-height: 2em;
     padding-left: 30px ;
     font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -64,8 +66,9 @@ section.imagem {
     color: white;
 }
 
-section.imagem {
-    width: 400px;
+section.imagem > p {
+    display: inline-block; 
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.459);
 } 
 
